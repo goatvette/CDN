@@ -1,10 +1,15 @@
 import asyncHandler from '../middleware/asyncHandler.js';
 import generateToken from '../utils/generateToken.js';
 import User from '../models/userModel.js';
+import dotenv from 'dotenv';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+dotenv.config({ path: path.join(__dirname, '..', '..', '.env') });
 import sgMail from '@sendgrid/mail';
-sgMail.setApiKey(
-  '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'
-);
+sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
 // @desc    Auth user & get token
 // @route   POST /api/users/auth
