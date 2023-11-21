@@ -1,11 +1,18 @@
 import asyncHandler from '../middleware/asyncHandler.js';
 import Order from '../models/orderModel.js';
 import Product from '../models/productModel.js';
+import dotenv from 'dotenv';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+dotenv.config({ path: path.join(__dirname, '..', '..', '.env') });
 import { calcPrices } from '../utils/calcPrices.js';
 import { verifyPayPalPayment, checkIfNewTransaction } from '../utils/paypal.js';
 import sgMail from '@sendgrid/mail';
 sgMail.setApiKey(
-  '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'
+  process.env.SENDGRID_API_KEY
 );
 
 // @desc    Create new order
