@@ -124,7 +124,7 @@ const LoginScreen = () => {
         Log in With Google
       </Button> */}
 
-      <Row className='my-3'>
+      {/*<Row className='my-3'>
         <h4 className='text-center text-black'>Or</h4>
         <div className='d-grid'>
           <GoogleLogin
@@ -134,7 +134,7 @@ const LoginScreen = () => {
             className='my-5'
           />
         </div>
-      </Row>
+      </Row>*/}
 
       <Row className='py-3'>
         <Col>
