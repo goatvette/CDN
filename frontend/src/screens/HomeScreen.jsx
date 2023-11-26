@@ -126,7 +126,7 @@ const HomeScreen = () => {
             {/* Features  */}
           </section>
 
-          <section className='my-5 text-black d-none d-lg-block'>
+          {/*      <section className='my-5 text-black d-none d-lg-block'>
             <Row>
               <Col>
                 <div className='bg-black text-white rounded p-3 text-center'>
@@ -153,7 +153,7 @@ const HomeScreen = () => {
                 </div>
               </Col>
             </Row>
-          </section>
+          </section> */}
 
           <section className='my-5'>
             <h1 className='text-black'>FAQ'S</h1>
