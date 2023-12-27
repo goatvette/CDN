@@ -176,8 +176,10 @@ const ProductScreen = () => {
                 <ListGroup.Item className='text-black'>
                   Price: {activePrice > 0 ? activePrice : product.price} AED
                 </ListGroup.Item>
-                <ListGroup.Item className='text-black'>
-                  Description: {product.description}
+              <ListGroup.Item className='text-black'>
+                  {product.description.split('//').map((paragraph, index) => (
+                    <p key={index}>{paragraph}</p>
+                  ))}
                 </ListGroup.Item>
               </ListGroup>
             </Col>
