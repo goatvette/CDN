@@ -48,8 +48,7 @@ const HomeScreen = () => {
                   <div className='p-5'>
                     <h2>Explore Our Collection</h2>
                     <p className='mb-4'>
-                      Elevate your living spaces with our exquisite collection
-                      of handcrafted wall paintings and art.
+                     Elevate your living spaces with our exquisite collection of handcrafted framed art prints and canvas prints
                     </p>
                     <a className='btn bg-white text-black' href='#latest_art'>
                       Shop Now
@@ -75,7 +74,7 @@ const HomeScreen = () => {
                   />
                   <Card.Body className='bg-black'>
                     <Card.Title className='text-center text-white'>
-                      Free Delivery
+                      Free Delivery Within UAE
                     </Card.Title>
                   </Card.Body>
                 </Card>
