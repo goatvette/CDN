@@ -48,13 +48,16 @@ const Header = () => {
             <Nav className='ms-auto'>
               {/* <SearchBox /> */}
               <LinkContainer to='/prints'>
-                <Nav.Link>Prints</Nav.Link>
+                <Nav.Link>Framed Prints</Nav.Link>
               </LinkContainer>
               <LinkContainer to='/canvas'>
-                <Nav.Link>Canvas</Nav.Link>
+                <Nav.Link>Canvas Prints</Nav.Link>
               </LinkContainer>
               <LinkContainer to='/about'>
                 <Nav.Link>About</Nav.Link>
+              </LinkContainer>
+                <LinkContainer to='/contact-us'>
+                <Nav.Link>Contact</Nav.Link>
               </LinkContainer>
               <LinkContainer to='/cart'>
                 <Nav.Link>
