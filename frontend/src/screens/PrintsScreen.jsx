@@ -34,12 +34,7 @@ const PrintsScreen = () => {
           <section id='latest_art' className='m-3'>
             <h1 className='text-black'>Prints</h1>
             <p className='my-3 text-black'>
-              Welcome to ConanDuneArt Prints, where affordability meets
-              artistry. Explore our impressive collection of wall painting
-              prints in A2 and A3 sizes, designed to add a touch of elegance to
-              your space without breaking the bank. Whether you're seeking
-              classic masterpieces, contemporary expressions, or landscapes, our
-              A2 and A3 prints cater to your every artistic need.
+            Welcome to ConanDuneArt Prints, where affordability meets artistry. Explore our impressive collection of art prints in A2 and A3 sizes, designed to add a touch of elegance to your space without breaking the bank. Whether you're seeking classic masterpieces, contemporary expressions, or landscapes, our A2 and A3 prints cater to your every artistic need.
             </p>
             <Row>
               {data.products.map((product) => {
