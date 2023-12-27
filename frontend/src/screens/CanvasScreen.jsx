@@ -34,16 +34,7 @@ const CanvasScreen = () => {
           <section id='latest_art' className='m-3'>
             <h1 className='text-black'>Canvas</h1>
             <p className='my-3 text-black'>
-              Discover a world of artistry, elegance, and luxury as you explore
-              our collection of fine art canvases. Whether you're seeking
-              classic masterpieces or contemporary expressions, we offer a
-              curated selection of hand-painted canvases that capture the
-              essence of Dubai's thriving art scene.Each canvas is a testament
-              to our passion for art and our dedication to offering you the
-              finest hand-painted pieces. Each canvas is a unique masterpiece
-              that perfectly complements your space. We invite you to explore
-              our collection and experience the beauty of hand-painted canvases
-              in the heart of Dubai.
+              Discover a world of artistry, elegance, and luxury as you explore our collection of fine art canvases. Whether you're seeking classic masterpieces or contemporary expressions, we offer a curated selection of canvases that capture the essence of Dubai's thriving art scene. Each canvas is a testament to our passion for art and our dedication to offering you the finest artwork. Each canvas is a unique masterpiece that perfectly complements your space. We invite you to explore our collection and experience the beauty of ConanDuneArt.
             </p>
             <Row>
               {data.products.map((product) => {
