@@ -137,7 +137,7 @@ const CartScreen = () => {
               <div className='d-grid'>
                 <Button
                   type='button'
-                  className='btn-block bg-black'
+                  className='btn-block bg-black my-2'
                   disabled={cartItems.length === 0}
                   onClick={checkoutHandler}
                 >
