@@ -10,6 +10,8 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import ScrollToTop from './components/ScrollToTop';
 
+// function restart(){console.log('Restart')}
+
 
 const App = () => {
   const dispatch = useDispatch();
