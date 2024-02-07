@@ -7,7 +7,7 @@ import Ab3 from '../assets/about3.jpg';
 import Ab5 from '../assets/ab5.JPG';
 // import Ab4 from '../assets/about4.jpg';
 
-export const AboutScreen = () => {
+const AboutScreen = () => {
   const painterInfo = {
     name: 'Conan',
     bio: 'Conan Dune is a German – Singaporean artist who has a vast knowledge of the art world having traveled to over 50 countries while also having studied in Singapore and Taiwan as well as New Zealand. Conan has now settled in Dubai where he continues his hobby of creating paintings with the hopes of capturing the beauty of the local landscapes as well as the culture surrounding it.',
@@ -59,3 +59,5 @@ export const AboutScreen = () => {
     </Container>
   );
 };
+
+export default AboutScreen;
