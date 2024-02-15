@@ -12,7 +12,7 @@ import AdminRoute from './components/AdminRoute';
 import store from './store';
 import { Provider } from 'react-redux';
 import { PayPalScriptProvider } from '@paypal/react-paypal-js';
-import { GoogleOAuthProvider } from '@react-oauth/google';
+//import { GoogleOAuthProvider } from '@react-oauth/google';
 const HomeScreen = lazy(() => import('./screens/HomeScreen'));
 const ProductScreen = lazy(() => import('./screens/ProductScreen'));
 const CartScreen = lazy(() => import('./screens/CartScreen'));
@@ -256,7 +256,6 @@ const router = createBrowserRouter(
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <GoogleOAuthProvider clientId='623368925164-kghdld4q8ksgfej1bp3rjam56cr7e93v.apps.googleusercontent.com'>
     <React.StrictMode>
       <HelmetProvider>
         <Provider store={store}>
@@ -270,7 +269,6 @@ root.render(
         </Provider>
       </HelmetProvider>
     </React.StrictMode>
-  </GoogleOAuthProvider>
 );
 
 reportWebVitals();
